@@ -1,0 +1,103 @@
+body {
+  background: url('https://images.freecreatives.com/wp-content/uploads/2015/04/3336-grey-texture-1920x1080-abstract-wallpaper.gif');
+}
+a {
+	color: #8cc7cc;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #8cc7cc;
+}
+.searchBar {
+  margin-top: 60px;
+  background: #4a86ff;
+  border-radius: 5px;
+  padding: 10px;
+}
+.location {
+	margin-top: 15px;
+}
+.box {
+  box-shadow: 0px 0px 10px #000;
+  margin-top: 15px;
+}
+.lhs {
+	background: linear-gradient(240deg, #4a86ff, #fff);
+	box-shadow: 3px 0px 5px #333;
+	min-height: 250px;
+	z-index: 1;
+	border-radius: 5px 0px 0px 5px;
+}
+.rhs {
+	background-color: #4a86ff;
+	min-height: 250px;
+	padding-top: 20px;
+	color: #333;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.lhs h1 {
+	font-weight: 100;
+	font-size: 50px;
+}
+.owf{
+	color: #222;
+}
+.owf {
+    font-size: 64px !important;
+}
+.owf-lg{
+	font-size: 150px !important;
+}
+
+
+p.weatherDetail {
+	color: #666;
+}
+
+.unit {
+	font-weight: 100;
+}
+.footer {
+	margin-top: 100px;
+	text-align: center;
+}
+.footer>p {
+	color:white;
+}
+.fa {
+	color: #4a86ff;
+}
+.btn-social:hover > .fa {
+	color: white;
+}
+.btn-social {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+		padding-bottom: 10px;
+		margin: 3px;
+}
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+	background: white;
+  transition: all 0.3s ease-in-out;
+  margin-top: 5px;
+	margin-bottom: 15px;
+}
+.btn-outline:hover {
+	transition: all 0.3s ease-in-out;
+	background: #4a86ff;
+	border-color: #4a86ff;
+}
+a.btn-outline.btn-social:hover {
+	color: white;
+}

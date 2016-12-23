@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Vendor JS -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+  <!-- Vendor CSS -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" />
+  <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="http://websygen.github.io/owfont/css/owfont-regular.css"/>
+  <!-- Local Links-->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script type="text/javascript" src="./js/basic.js"></script>
+</head>
+
+<body>
+	<div class="container">
+	<div class="row">
+	  <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 searchBar">
+      <div class="row">
+        <div class="col-xs-8">
+					<form class="addForm">
+						<div class="input-group">
+							<input type="text" class="form-control address" placeholder="Chicago, Illinois, US">
+              <span class="input-group-btn">
+								<button class="btn btn-default search" type="submit">
+									<i class="glyphicon glyphicon-search"></i>
+								</button>
+							</span>
+            </div>
+          </form>
+        </div>
+        <div class="col-xs-4 text-right">
+					    <input class="unitChange" type="checkbox" data-toggle="toggle" data-on="<sup>o</sup> F" data-off="<sup>o</sup> C" data-onstyle="default" disabled>
+				</div>
+      </div>
+    </div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 box">
+			<div class="row">
+				<div class="col-xs-8 lhs">
+					<div class="row">
+						<div class="row location">
+						<div class="col-xs-12 text-center">
+							<br class="visible-xs">
+							<p class="lead"><span class="city">Please Enter Your Location</span><span class="state"></span> <span class="country"></span></p>
+						</div>
+					</div>
+						<div class="col-xs-5">
+							<i id="current-icon" class="owf owf-lg"></i>
+						</div>
+						<div class="col-xs-7 text-right">
+							<h1><span class="temperature">--</span> <sup>o</sup><span class="unit">F</span></h1>
+							<p class="lead weatherDetail">---</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-4 rhs text-right">
+					<p><strong>Humidity</strong><br><span class="humidity">--</span>%</p>
+					<p><strong>Wind Speed</strong><br><span class="wind">--</span>MPH</p>
+					<p><strong>Cloud Coverage</strong><br><span class="cloud">--</span>%</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+<div class="row">
+	<div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 footer'>
+			<p>Created by Jon Langel for the FreeCodeCamp Front-End Development Project: <a href="https://www.freecodecamp.com/challenges/show-the-local-weather">Show the Local Weather</a></p>
+
+		<a href="http://github.com/JonMLangel/" target="_blank" class="btn-outline btn-social">
+			<i class="fa fa-github">
+			</i>
+		</a>
+		<a href="http://codepen.io/JonLangel/" target="_blank" class="btn-outline btn-social">
+			<i class="fa fa-codepen">
+			</i>
+		</a>
+		<a href="https://www.linkedin.com/in/jonathon-langel-509739a1
+"target="_blank" class="btn-outline btn-social">
+			<i class="fa fa-linkedin">
+			</i>
+		</a>
+		<a href="http://freecodecamp.com/jonmlangel/" target="_blank" class="btn-outline btn-social">
+			<i class="fa fa-free-code-camp"></i>
+	  </a>
+	</div>
+ </div>
+</body>
