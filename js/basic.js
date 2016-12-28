@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var api = 'http://api.openweathermap.org/data/2.5/weather';
+  var api = 'https://api.openweathermap.org/data/2.5/weather';
   var APIKEY = '16247bbb6def9eb1bbaf3f7fa3bcbab6';
   var unit = '&units=imperial';
 
@@ -13,7 +13,7 @@ $(document).ready(function() {
 	var getWeather = function() {
 		address = undefined;
 		return $.ajax({
-			url: 'http://api.openweathermap.org/data/2.5/weather',
+			url: 'https://api.openweathermap.org/data/2.5/weather',
 			data: {
 				'appid': '16247bbb6def9eb1bbaf3f7fa3bcbab6',
 				'lat': latitude,
@@ -27,7 +27,7 @@ $(document).ready(function() {
 	var getWeatherByAddress = function() {
 		address = $('.address').val();
 		return $.ajax({
-			url: 'http://api.openweathermap.org/data/2.5/weather',
+			url: 'https://api.openweathermap.org/data/2.5/weather',
 			data: {
 				'appid': '16247bbb6def9eb1bbaf3f7fa3bcbab6',
 				'q': address,
@@ -36,7 +36,7 @@ $(document).ready(function() {
 			dataType: 'json',
 		})
 	};
-  
+
 	var setWeather = function(data) {
 		if (data.cod == 200) {
 			var temperature = Math.round(data.main.temp);
